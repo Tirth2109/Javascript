@@ -19,7 +19,3 @@ let myobj = {
 const myfunction = function(){
     console.log("hello India");
 }
-
-git remote add origin https://github.com/Tirth2109/Javascript.git
-git branch -M main
-git push -u origin main

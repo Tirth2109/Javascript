@@ -21,4 +21,16 @@ const newarray = myarry.join()
 console.log(myarry);
 console.log(newarray);
 
+console.log("A ", myarry);
+
+const myn1 = myarry.slice(1, 3)
+
+console.log(myn1);
+console.log("B ", myarry);
+
+
+const myn2 = myarry.splice(1, 3)
+console.log("C ", myarry);
+console.log(myn2);
+
 

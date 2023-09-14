@@ -19,3 +19,19 @@ let myobj = {
 const myfunction = function(){
     console.log("hello India");
 }
+//********************************
+//stack
+
+let myyoutubename = "tirth"
+let anothername = myyoutubename
+console.log(anothername);
+
+let userone ={
+    email: "user@google.com",
+    upi: "tirth123"
+}
+let usertwo = userone
+usertwo.email = "tirthdsdkjdvj.com"
+
+console.log(userone);
+console.log(usertwo);

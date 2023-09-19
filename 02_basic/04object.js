@@ -12,5 +12,12 @@ const regularuser = {
     }
  }   
 }
-console.log(regularuser);
+console.log(regularuser.fullname);
+
 //console.log(tinderuser);
+
+const obj1 = {1:"a", 2:"b"}
+const obj2 = {3:"a", 4:"t"}
+// const obj3 = {obj1, obj2}     not a good syntex not a perfect method to write
+const obj3 = Object.assign(obj1, obj2)
+console.log(obj3);

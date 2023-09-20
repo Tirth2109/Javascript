@@ -50,4 +50,19 @@ console.log(tinderuser.hasOwnProperty('isLoggedIn'));
 console.log(tinderuser.hasOwnProperty('isLogged'));
 
 
+const course = {
+    coursename:"javascript",
+    price: "343434",
+    courseInstructors: "hitesh"
+}
+const {courseInstructors} =course
+console.log(courseInstructors);
+
+{
+    "name": "tirth",
+    "id": "2322323"
+
+}
+//  [] = is array
+//{} =  is object
 

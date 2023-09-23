@@ -64,5 +64,5 @@ console.log(courseInstructors);
 
 }
 //  [] = is array
-//{} =  is object
+//{} =  is object imp
 

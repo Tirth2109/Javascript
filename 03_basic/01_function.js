@@ -39,3 +39,50 @@ console.log(loginusermess("tirth wellcome "));
 
 
 
+function calculatecartprice(num1){
+    return num1
+}
+console.log(calculatecartprice(20, 32, 321));
+
+function calculatecartprice1(...num1){
+    return num1
+}
+console.log(calculatecartprice1(20, 32, 321));
+
+
+
+
+
+
+
+const user={
+    username:"TIrth",
+    price: 12123
+}
+function handleobject(anyobject){
+    console.log(`Username is ${anyobject.username} and price is ${anyobject.price}`);
+
+}
+handleobject(user)
+
+
+
+
+
+handleobject({
+    username:"sam",
+    price: 111
+
+})
+
+
+
+
+const mynewarray = [200, 300, 323, 2121, 464]
+
+function returnseondvalue(getArray){
+    return getArray[1]
+}
+
+console.log(returnseondvalue(mynewarray));
+

@@ -26,8 +26,27 @@ function chai(){
 chai()
 
 
-const chai = () => {
+const chai1 = () => {
     let username= "patel tirth"
-    console.log(this.username);
+    console.log(this);
 }
-chai()
+chai1()
+
+
+
+
+const addtwo = (num1, num2) => {
+    return num1 + num2
+}
+console.log(addtwo(3,6));
+
+//inplicit return
+const addone = (num1, num2) => num1 + num2
+
+console.log(addone(3,62));
+// if we use {curly bracket} then we write return
+// if we use (bracket) then we can't write return 
+
+
+const myarray = [2,3,4,56,76]
+

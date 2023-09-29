@@ -15,6 +15,6 @@
 // globle scope ka polluction sa problam ho ti ha kai bar    to remove the variable in the globle scope
 
 ((name) => {
-    //  also called symbol iife
-    console.log(`Db connected two${name}`);
+    //  also called symbol iife  of all
+    console.log(`Db connected of two${name}`);
 })('tirth')

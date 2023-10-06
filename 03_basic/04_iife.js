@@ -16,5 +16,5 @@
 
 ((name) => {
     //  also called symbol iife  of all
-    console.log(`Db connected of are and  two${name}`);
+    console.log(`Db connected of are and   tutbjfjfhref two${name}`);
 })('tirth')

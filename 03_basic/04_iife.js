@@ -2,7 +2,7 @@
 
 
 (function chai(){
-    // also called as name iife
+    // also called as name iife (immedate invok function expration)
     console.log(`DB CONNECTED`);
 
 })();
